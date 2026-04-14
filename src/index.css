@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-muted-foreground: var(--muted-foreground);
+}
+
+@layer base {
+  :root {
+    --background: #f8fafc;
+    --foreground: #09090b;
+    --primary: #09090b;
+    --primary-foreground: #ffffff;
+    --secondary: #f4f4f5;
+    --muted-foreground: #71717a;
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: "Inter", "DM Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
