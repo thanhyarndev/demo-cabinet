@@ -11,7 +11,7 @@ export default function App() {
   const [gownCount, setGownCount] = useState(0);
   const [status, setStatus] = useState<"ready" | "scanning" | "verified">("ready");
 
-  const poloTarget = 7;
+  const poloTarget = 8;
   const gownTarget = 7;
   const totalTarget = poloTarget + gownTarget;
   const currentTotal = poloCount + gownCount;
@@ -134,7 +134,7 @@ export default function App() {
                   <Shirt className="w-5 h-5" />
                 </div>
                 <div className="flex flex-col">
-                  <span className="font-semibold text-slate-900">White Polo Shirt</span>
+                  <span className="font-semibold text-slate-900">Popo Pique CAFE - WHITE</span>
                   <span className="text-[12px] text-slate-500 font-medium">SKU: WP-001-M</span>
                 </div>
               </div>
